@@ -1,0 +1,161 @@
+
+.img_main_text{
+    background: url(../img_header/backgroud_main.jpg);
+    background-size: cover;
+    height: 550px;
+    background-size: 100%;
+   
+}
+
+
+.img_text{
+    position: relative;
+    background-color: white;
+    top: 10%;
+    left: 15%;
+    padding: 50px;
+    height: 20vh;
+    width: 30vw;
+    margin-top: 5px;
+    overflow:hidden
+    
+}
+.img_text p {
+    font-family: 'Satisfy', cursive;
+    font-weight: 800;
+}
+
+.img_text a{
+    border-radius: 20px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    white-space: nowrap;
+    margin: 5px;
+    font-size: 24px;
+    height: 40px;
+    line-height: 40px;
+    background-color: orange;
+    color: #FFF;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 20%);
+    text-decoration: none;
+}
+
+.imenno_we{
+    position: relative;
+    
+}
+.imenno_we p{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+.line_border {
+    border-bottom: orange 2px solid;
+    padding-bottom: 10px;
+}
+
+.grid_main{
+    display: grid;
+    grid-template-columns: auto auto  auto;
+    grid-template-rows: auto ;
+    justify-items: center;
+    grid-template-areas: 
+        "circle circle2 circle3"
+        "dostupnost udobno kachestvo"
+    ;
+    font-size: 25px;
+}
+
+.grid_main .circle{
+
+    transition: all 3s ease;
+}
+.grid_main .circle2{
+
+    transition: all 3s ease;
+}
+.grid_main .circle3{
+
+    transition: all 3s ease;
+}
+
+
+  .grid_main .circle:hover {
+   background-color: red;
+   transition: 2s; 
+   
+  } 
+  .grid_main .circle2:hover {
+    background-color: green;
+    transition: 2s; 
+    
+   } 
+   .grid_main .circle3:hover {
+    background-color: gray;
+    transition: 2s; 
+    
+   } 
+   
+
+.circle{
+    border: 2px solid red;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+     display: flex; 
+     align-items: center;
+     justify-content: center;
+}
+    
+
+.circle2{
+    border: 2px solid red;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+     display: flex; 
+     align-items: center;
+     justify-content: center;
+}
+
+.circle3{
+    border: 2px solid red;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+     display: flex; 
+     align-items: center;
+     justify-content: center;
+}
+
+.circle a img{
+    width: 70px;
+    height: 70px;
+}
+
+.circle2 a img{
+    width: 70px;
+    height: 70px;
+}
+
+.circle3 a img{
+    width: 70px;
+    height: 70px;
+}
+
+
+.dostupnost{
+    grid-area: dostupnost;
+}
+
+.udobno{
+    grid-area: udobno;
+}
+
+.kachestvo{
+    grid-area: kachestvo;
+}
+

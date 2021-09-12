@@ -1,0 +1,28 @@
+
+
+.map h3{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.map h3 span{
+    border-bottom: 2px solid orange;
+    padding-bottom: 10px;
+    
+}
+
+.map p{
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-weight: 900;
+}
+
+.iframe1> iframe{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+iframe {
+    position: relative;
+}

@@ -1,0 +1,144 @@
+@import url(../style/header.css);
+@import url(../style/main.css);
+@import url(../style/coast.css);
+@import url(../style/discount.css);
+@import url(../style/about.css);
+@import url(../style/map.css);
+@import url(../style/footer.css);
+@import url(../style/menu.css);
+
+
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+ @media screen and  (max-width:700px){
+  .month{
+     grid-template-columns: 320px;
+     grid-template-rows: repeat(15,auto) ;
+    grid-template-areas: 
+    "img1"
+    "month3"
+    "select1"
+    "h4150"
+    "more1"
+    "img2"
+    "month6"
+    "select2"
+    "h41500"
+    "more2"
+    "img3"
+    "month9"
+    "select3"
+    "h415000"
+    "more3"
+    ;
+  }
+   .header div h1{
+       margin-left: 5px;
+   }
+   .header h2{
+    margin-left: 5px;
+   }
+  
+  .about_img{
+    display: none;
+  }
+  .about{
+     padding: 5px;
+    text-align: center; 
+    grid-template-columns: 320px ;
+     grid-template-rows: repeat(3,auto) ;
+    grid-template-areas:
+    "about_h3 about_h3"
+    "about_text about_text"
+    "about_a "
+    ;
+  
+  }
+  .about_text{
+    margin-right: 2px;
+  }
+  .discount{
+    margin:0;
+    padding: 0;
+  }
+  .discount h3{
+    text-align: center;
+  }
+  
+  .footer{
+    grid-template-columns: 320px;
+    grid-template-rows: repeat(3,auto);
+    grid-template-areas: 
+    "h3_p"
+    "form"
+    "social_icons"
+    
+  }
+  .h3_p div {
+    margin-right: 2px;
+  }
+  .h3_p div a{
+    margin: 1px;
+  }
+  .tel_mail fieldset{
+    padding: 0;
+    width: 90%;
+  }
+  .menu_nav{
+    display: inline-block;
+  }
+  .topmenu{
+    display: none;
+  }
+  .line_border{
+    border-bottom: none;
+  }
+  textarea{
+    width: 90%;
+  }
+  .h3_p p{
+    margin-left: 2px;
+  }
+  .grid_main{
+    grid-template-columns: 320px;
+    grid-template-rows: repeat(6,auto);
+    grid-template-areas: 
+    "circle "
+    "dostupnost "
+    "circle2 "
+    "udobno "
+    "circle3"
+    "kachestvo"
+  }
+  .header div h2{
+    margin-left: 5px;
+  }
+  body{
+    margin: 0;
+  }
+  .form h2{
+    margin-left: 2px;
+  }
+  .h3_p div a{
+    margin-left: 5px;
+  }
+  .img_text{
+    height: 45%;
+    text-align: center
+  }
+  }
+ 
+
+

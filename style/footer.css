@@ -1,0 +1,178 @@
+.footer{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-areas:
+        "h3_p form"
+    ;
+    margin-top: 50px;
+    background-color: black;
+}
+
+
+.social_icons {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-left: 0;
+  }
+  .social_icons >li {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+  }
+  .social_icons a {
+    position: relative;
+    background-color: #eee;
+    display: block;
+    user-select: none;
+    transition: background-color .3s ease-in-out;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: .25rem;
+  }
+  .social_icons a:hover {
+    background-color: #e0e0e0;
+  }
+  .social_icons a::before {
+    content: "";
+    position: absolute;
+    width: 1.2rem;
+    height: 1.2rem;
+    left: .65rem;
+    top: .65rem;
+    background: transparent no-repeat center center;
+    background-size: 100% 100%;
+  }
+
+  
+  .social_icons .social-icon-vk::before {
+    background-image: url("../img_footer/vk.png");
+  }
+  .social_icons .social-icon-telegram::before {
+    background-image: url("../img_footer/telegram.png");
+  }
+  .social_icons .social-icon-youtube::before {
+    background-image: url("../img_footer/youtube.png");
+  }
+
+.tel_email{
+    display: grid;
+
+}
+
+textarea{
+    width: 100%;
+    height: 100%;
+}
+
+.tel_mail fieldset a{
+    grid-area: about_a;
+    border-radius: 20px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    white-space: nowrap;
+    margin: 5px;
+    font-size: 24px;
+    height: 20px;
+    line-height: 20px;
+    background-color: orange;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 20%);
+    text-decoration: none;
+    color: #5a5a5a; 
+     padding: 10px; 
+     transition: 1s linear; 
+     text-align: center;
+}
+
+
+input{
+    color: black;
+}
+
+
+.h3_p{
+    grid-area: h3_p;
+}
+
+.form{
+    grid-area: form;
+}
+
+
+.tel_mail fieldset textarea{
+    margin-top: 10px;
+}
+.form h2{
+    color: white;
+}
+input::-webkit-input-placeholder {
+    color:white ; opacity:1;
+    background-color: rgba(0, 0, 0, 0.658);
+
+}
+
+textarea::placeholder {
+    color:white ; 
+    
+
+}
+.h3_p h3{
+    color: white;
+    text-align: center;
+    font-family: 'Kaisei Tokumin', serif;
+}
+
+.h3_p p{
+    color: white;
+    font-family: 'Kaushan Script', cursive;
+    margin-left: 30px;
+}
+input{
+    padding: 0;
+    background-color: #222;
+    color: white;
+}
+
+textarea{
+    background-color: #222;
+    color: white;
+}
+.name_tel_mail{
+    display: flex;
+}
+
+.input_name{
+    margin-right: 10px;
+    width: 90%;
+    text-overflow: ellipsis;
+}
+.input_tel{
+    width: 90%;
+    text-overflow: ellipsis;
+}
+
+.input_mail{
+    margin-left: 10px;
+    width: 90%;
+    text-overflow: ellipsis;
+}
+.h3_p div {
+    margin-top: 40px;
+}
+
+.h3_p div a{
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+   border-right: 1px solid white ;
+   padding-right: 20px;
+}
+
+.h3_p div a:last-of-type {
+    border-right: none;
+    
+}

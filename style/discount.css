@@ -1,0 +1,47 @@
+
+
+.discount h3{
+    font-family: 'Rampart One', cursive;
+}
+
+.discount{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    border: 1px solid black;
+    margin: 0 100px;
+    background-color: white;
+}
+
+
+.discount p{
+    text-align: center;
+    font-family: 'Mali', cursive;
+}
+
+.discount a{
+    border-radius: 20px;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    white-space: nowrap;
+    background-color: orange;
+    margin: 5px;
+    font-size: 24px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px 1px rgb(0 0 0 / 20%);
+    text-decoration: none;
+    color: #5a5a5a; 
+     padding: 10px; 
+     transition: 1s linear; 
+}
+
+
+.discount a:hover {
+    color: white; 
+    background: orange; 
+}
